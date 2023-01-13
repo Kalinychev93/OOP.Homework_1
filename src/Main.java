@@ -52,17 +52,22 @@ public class Main {
         System.out.println("");
         System.out.println("Exercise 2, 3");
 
-       Automobile auto1 = new Automobile( "    ", "", 0, "желтый", -1998,"   ");
-       Automobile auto2 = new Automobile("Audi", "A8 50 L TDI quattro", 3.0, "черный", 2020, "Германия");
-       Automobile auto3 = new Automobile("BMW", "Z8", 3.0, "черный", 2021, "Германия");
-       Automobile auto4 = new Automobile("Kia", "Sportage", 2.4, "красный", 2018, "Южная Корея");
-       Automobile auto5 = new Automobile("Hyundai", "Avante", 1.6, "оранжевый", 2016, "Южная Корея");
+        Automobile auto1 = new Automobile( "Lada", "Granta", 1.7, "желтый", 2015,"Россия");
+        Automobile auto2 = new Automobile("Audi", "A8 50 L TDI quattro", 3.0, "черный", 2020, "Германия");
+        Automobile auto3 = new Automobile("BMW", "Z8", 3.0, "черный", 2021, "Германия");
+        Automobile auto4 = new Automobile("Kia", "Sportage", 2.4, "красный", 2018, "Южная Корея");
+        Automobile auto5 = new Automobile("Hyundai", "Avante", 1.6, "оранжевый", 2016, "Южная Корея");
+
+//      Объект для проверки корректности заданных характеристик
+        Automobile perfomanceCheck = new Automobile(" ", null, 0, "  ", -2045, "" );
 
         System.out.println(auto1);
         System.out.println(auto2);
         System.out.println(auto3);
         System.out.println(auto4);
         System.out.println(auto5);
+        System.out.println(perfomanceCheck);
+
 
     }
 }
