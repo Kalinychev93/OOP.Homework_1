@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("OOP.Homework 1");
-
+/* Выполнение задания №1 сохранено, но закомментировано для работоспособности программы.
         System.out.println("Exercise 1");
         Automobile automobile1 = new Automobile();
         automobile1.brand = "Lada";
@@ -41,7 +41,7 @@ public class Main {
         automobile5.productionCountry = "Южная Корея";
         automobile5.color = "коранжевый";
         automobile5.productionYear = 2016;
-        automobile5.engineVolume = 1.7;
+        automobile5.engineVolume = 1.6;
 
         System.out.println(automobile1);
         System.out.println(automobile2);
@@ -49,11 +49,20 @@ public class Main {
         System.out.println(automobile4);
         System.out.println(automobile5);
 
-        System.out.println("");
+        System.out.println("");*/
         System.out.println("Exercise 2");
 
-       // Automobile auto1 = new Automobile("Lada", "Granta", 1.7, "желтый", 2015, "Россия");
-       // System.out.println(auto1);
+       Automobile auto1 = new Automobile("Lada", "Granta", 1.7, "желтый", 2015, "Россия");
+       Automobile auto2 = new Automobile("Audi", "A8 50 L TDI quattro", 3.0, "черный", 2020, "Германия");
+       Automobile auto3 = new Automobile("BMW", "Z8", 3.0, "черный", 2021, "Германия");
+       Automobile auto4 = new Automobile("Kia", "Sportage", 2.4, "красный", 2018, "Южная Корея");
+       Automobile auto5 = new Automobile("Hyundai", "Avante", 1.6, "оранжевый", 2016, "Южная Корея");
+
+        System.out.println(auto1);
+        System.out.println(auto2);
+        System.out.println(auto3);
+        System.out.println(auto4);
+        System.out.println(auto5);
 
     }
 }
