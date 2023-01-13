@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("OOP.Homework 1");
-/* Выполнение задания №1 сохранено, но закомментировано для работоспособности программы.
+
         System.out.println("Exercise 1");
         Automobile automobile1 = new Automobile();
         automobile1.brand = "Lada";
@@ -49,10 +49,10 @@ public class Main {
         System.out.println(automobile4);
         System.out.println(automobile5);
 
-        System.out.println("");*/
-        System.out.println("Exercise 2");
+        System.out.println("");
+        System.out.println("Exercise 2, 3");
 
-       Automobile auto1 = new Automobile("Lada", "Granta", 1.7, "желтый", 2015, "Россия");
+       Automobile auto1 = new Automobile("Lada", "", 1.3, "желтый", 2015,"Россия");
        Automobile auto2 = new Automobile("Audi", "A8 50 L TDI quattro", 3.0, "черный", 2020, "Германия");
        Automobile auto3 = new Automobile("BMW", "Z8", 3.0, "черный", 2021, "Германия");
        Automobile auto4 = new Automobile("Kia", "Sportage", 2.4, "красный", 2018, "Южная Корея");
